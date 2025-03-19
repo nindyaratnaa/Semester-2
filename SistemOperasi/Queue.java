@@ -65,16 +65,6 @@ public class Queue {
         System.out.println("\nTotal waktu eksekusi semua proses: " + totalRuntime + " detik.");
     }
 
-    //Mengecek apakah antrian kosong
-    public boolean isEmpty() {
-        return itemCount == 0;
-    }
-
-    //Mengecek apakah antrian penuh
-    public boolean isFull() {
-        return itemCount == capacity;
-    }
-
     public void printChart() {
         //Menampilkan chart dengan posisi waktu proses
         System.out.println("\nChart");
