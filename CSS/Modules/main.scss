@@ -1,0 +1,9 @@
+// //Mixin
+// @import 'mixin';
+// @import 'header';
+// @import 'container';
+// @import 'footer';
+
+// Atau bisa juga
+@import 'mixin', 'header', 'container', 'footer';
+

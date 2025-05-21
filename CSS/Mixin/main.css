@@ -1,0 +1,59 @@
+.header ul, .footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul li, .footer ul li {
+  display: inline-block;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: black;
+  padding: 0.7rem;
+}
+.header ul li a {
+  color: azure;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer li {
+  display: inline-block;
+}
+.footer li {
+  padding: 0.4rem;
+  background-color: salmon;
+}
+.footer li a {
+  color: azure;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 400px;
+  background-color: rgb(215, 215, 215);
+}
+.container .box {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(186, 230, 159);
+  text-align: center;
+  line-height: 60;
+}/*# sourceMappingURL=main.css.map */

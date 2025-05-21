@@ -1,0 +1,11 @@
+.footer {
+    @include inline-list();
+    li {
+        padding: 0.4rem;
+        background-color: salmon;
+        a {
+            color: azure;
+            text-decoration: none;   
+        }
+    }
+}

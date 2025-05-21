@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgb(255, 255, 223);
+  --secondary-color: rgb(156, 218, 239);
+  --text-color: rgb(0, 39, 76);
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+h1 {
+  color: orange;
+}/*# sourceMappingURL=main.css.map */

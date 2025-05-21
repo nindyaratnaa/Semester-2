@@ -1,0 +1,61 @@
+/ //Ini pakai css biasa, tapi beberapa browser mungkin tidak suport karena jenis terbaru
+:root { //Seluruh elemen ini bakal punya var ini
+    --primary-color: rgb(255, 255, 223);
+    --secondary-color: rgb(156, 218, 239);  
+    --text-color: rgb(0, 39, 76); 
+    //--namaVar-jenis var: isinya;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+// //Kalau Menggunakan SASS
+// $primary-color: rgb(255, 255, 223);
+// $secondary-color: rgb(156, 218, 239);  
+
+// body {
+//     background-color: $primary-color;
+// }
+
+// h1 {
+//     $text-color: rgb(0, 39, 76) !global; 
+//     //!global memaksa var lokal untuk bersifat global
+//     color: $text-color;
+// }
+
+// p {
+//     color: $text-color;
+// }
+
+// Map
+// Untuk yang biasa
+// $alert-danger: red;
+// $alert-warning: orange;
+// $alert-success: green;
+
+// h1 {
+//     color: $alert-warning;
+// }
+
+//Tapi bisa di buat singkat juga dengan pengelmpokan
+$alert: (
+    'danger': red, 
+    'warning': orange,
+    'success': green,
+);
+
+h1 {
+    color: map-get($alert , 'warning');
+}
+
+
+

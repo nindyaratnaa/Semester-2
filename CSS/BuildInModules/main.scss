@@ -1,0 +1,12 @@
+$warna-dasar: salmon;
+h1 {
+    color: $warna-dasar;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+//Build in Modules
+h1 {
+    color: adjust-color($color: $warna-dasar, $red: 30, $green: 100, $blue: 20);
+}
